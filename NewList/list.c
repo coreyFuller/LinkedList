@@ -1,33 +1,6 @@
 
 #include "list.h"
 
-
-void deleteNum(int num) {
-
-  Node * temp = head;
-  Node * current = NULL;
-  if (head == NULL){
-    printf("List is empty!\n");
-    return;
-  }
-  if (head->key == num) {
-    head = temp->next;
-    free(temp);
-    return;
-  }
- 
-  while(current->next != NULL) { 
-    current = temp->next;
-	if(current->key == num) {
-	  temp->next = current->next;
-	  free(current);
-	  current = temp->next;
-	  return;
-	}
-	temp = current;
-  }
-}
-
  
 void delete() {
 
