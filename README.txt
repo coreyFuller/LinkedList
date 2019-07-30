@@ -3,5 +3,5 @@ Corey Fuller
 LinkedList
 
 
-This is a linked list program I am designing to mimic a query database. It is still a work in progess but it runs as is. 
+A linked list in c++ with many functions including a search function. It is still a work in progess but it runs as is. 
 To build the program use "make compile" command.
