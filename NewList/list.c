@@ -21,7 +21,7 @@ void delete() {
 void push_front(int count) {
 
   Node * temp = head;
-  Node * newNode = (Node*)malloc(sizeof(Node));;
+  Node * newNode = (Node*)malloc(sizeof(Node));
   newNode->key = count;
   printf("Enter a last name of a person to put in the front of the list: ");
   scanf("%s", newNode->lName);
